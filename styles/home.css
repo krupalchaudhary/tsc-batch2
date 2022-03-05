@@ -1,0 +1,64 @@
+/* Element Selector div */
+/* Id Selector #Logo */
+/* class Selector .logo */
+
+/* 
+    fixed measure
+    px
+    cm
+    mm
+    pt
+
+
+    relative measure
+    rem
+    em
+    %
+    vh
+    vw
+
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1258px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    padding: 2rem 1rem;
+}
+
+/* Header Style */
+header > div.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > div.container > nav {
+    display: flex;
+    gap: 2rem;
+}
+
+header > div.container > a.logo {
+    background-color: inherit;
+}
+
+header > div.container > a.email-address {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+main > section {
+    height: 100vh;
+}
+
+
+
+
