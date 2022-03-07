@@ -1,0 +1,30 @@
+/* .container {
+    max-width: 1258px;
+    margin: 0 auto;
+    width: 100%;
+} */
+main > section#about {
+    display: flex;
+    height: 100vh;
+    gap: 5rem;
+    align-items: center;
+}
+main > section#about > div {
+    flex: 1;
+}
+main > section#about > div.about-image {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+/* main > section#about > div.about-image > picture {
+    width: 100%;
+    height: auto;
+} */
+main > section#about > div.about-image > picture > img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+main > section#about > div.about-content {
+}
